@@ -1,0 +1,19 @@
+impdb:
+  customer:
+    invokeType: awsInvoke
+    lambdaFunctionName: platform-binlog-db-sync-impdb-customer
+    url: ""
+rccmrdb:
+  request:
+    invokeType: awsInvoke
+    lambdaFunctionName: platform-db-sync-rccmrdb-request
+    url: ""
+  requestinfo:
+    invokeType: awsInvoke
+    lambdaFunctionName: platform-db-sync-rccmrdb-requestinfo
+    url: ""
+rcsredb:
+  maintenances:
+    invokeType: awsInvoke
+    lambdaFunctionName: platform-db-sync-rcsredb-maintenances
+    url: ""

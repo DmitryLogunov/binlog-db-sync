@@ -1,0 +1,13 @@
+some_scheme:
+  some_table_1:
+    invokeType: awsInvoke
+    lambdaFunctionName: db-sync-go-template
+    url: ""
+  some_table_2:
+    invokeType: http
+    lambdaFunctionName: ""
+    url: https://<aws-lambda-function-url>   
+  some_table_3:
+    invokeType: modelHandler
+    lambdaFunctionName: ""
+    url: ""

@@ -1,0 +1,1 @@
+../../deployment/dockerfiles/dockerfile.go/Dockerfile.binlod-db-sync.v0
